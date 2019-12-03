@@ -1237,6 +1237,24 @@ clean: ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/ar_track_alvar_msgs_gennode
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory turtlebot_control
+
+# Convenience name for "all" pass in the directory.
+turtlebot_control/all:
+
+.PHONY : turtlebot_control/all
+
+# Convenience name for "clean" pass in the directory.
+turtlebot_control/clean:
+
+.PHONY : turtlebot_control/clean
+
+# Convenience name for "preinstall" pass in the directory.
+turtlebot_control/preinstall:
+
+.PHONY : turtlebot_control/preinstall
+
+#=============================================================================
 # Directory level rules for directory lab4_cam
 
 # Convenience name for "all" pass in the directory.

@@ -7,6 +7,7 @@
 subdirs(gtest)
 subdirs(realsense-ros/realsense2_description)
 subdirs(ar_track_alvar/ar_track_alvar_msgs)
+subdirs(turtlebot_control)
 subdirs(lab4_cam)
 subdirs(ar_track_alvar/ar_track_alvar)
 subdirs(realsense-ros/realsense2_camera)

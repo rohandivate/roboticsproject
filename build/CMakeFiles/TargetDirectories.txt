@@ -66,6 +66,13 @@
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/ar_track_alvar_msgs_generate_messages_nodejs.dir
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/install.dir
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/ar_track_alvar_msgs_gennodejs.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/list_install_components.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/install.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/rebuild_cache.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/install/strip.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/install/local.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/test.dir
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/edit_cache.dir
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam/CMakeFiles/install.dir
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam/CMakeFiles/lab4_cam_generate_messages_nodejs.dir
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam/CMakeFiles/lab4_cam_gencpp.dir

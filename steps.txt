@@ -19,3 +19,13 @@ ros multimaster (works with c111-2, black, pink)
 - - (in separate terminal) rosrun master_sync_fkie master_sync 
 - (separate terminal, just one time) rosservice call /master_discovery/list_masters
 - now you should be able to see a list of all the masters that have been discovered by the fkie pkg
+- see this for demo: http://wiki.ros.org/multimaster_fkie/Tutorials/Setup%20a%20ROS%20master%20synchronization
+
+making the turtlebot go to the ar tag:
+ - change .bashrc to ROS_MASTER_URI=http://<color>.local:11311
+ - source .bashrc
+ - ssh into turtlebot and run: roslaunch turtlebot_bringup minimal.launch --screen (do this step before running the realsense commands)
+ - change fixed frame to ar marker thats on the ground
+ - rosrun turtlebot_control turtlebot_control.py ar_marker_8 ar_marker_9
+ - to see poses, run: rosrun tf tf_echo ar_marker_8 ar_marker_9
+

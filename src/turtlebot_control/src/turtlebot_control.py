@@ -14,19 +14,24 @@ import numpy as np
 from geometry_msgs.msg import Twist
 
 #Define the method which contains the main functionality of the node.
-def controller(turtlebot_frame, goal_frame):
+def controller(pursuer_frame, evader_frames):
   """
-  Controls a turtlebot whose position is denoted by turtlebot_frame,
-  to go to a position denoted by target_frame
+  Controls a turtlebot whose position is denoted by pursuer_frame,
+  to go to a position denoted by evader_frame
   Inputs:
-  - turtlebot_frame: the tf frame of the AR tag on your turtlebot
-  - target_frame: the tf frame of the target AR tag
+  - pursuer_frame: the tf frame of the AR tag on your turtlebot
+  - evader_frame: the tf frame of the target AR tag
   """
 
   ################################### YOUR CODE HERE ##############
 
   #Create a publisher and a tf buffer, which is primed with a tf listener
-  pub = rospy.Publisher('/mobile_base/commands/velocity', Twist, queue_size=10)
+  """ 
+  pick the right channel (depends on the bot)
+  """
+  # channel = '/black/mobile_base/commands/velocity' # for black
+  channel = '/mobile_base/commands/velocity' # for others
+  pub = rospy.Publisher(channel, Twist, queue_size=10)
   tfBuffer = tf2_ros.Buffer()
   tfListener = tf2_ros.TransformListener(tfBuffer)
   
@@ -39,8 +44,10 @@ def controller(turtlebot_frame, goal_frame):
   # Loop until the node is killed with Ctrl-C
   while not rospy.is_shutdown():
     try:
-      trans = tfBuffer.lookup_transform(turtlebot_frame, goal_frame, rospy.Time())
-
+      best_trans = None
+      for evader_frame in evader_frames: # change this to pick the best evader to chase
+        best_trans = tfBuffer.lookup_transform(pursuer_frame, evader_frame, rospy.Time())
+      trans = best_trans
       # Process trans to get your state error
       # Generate a control command to send to the robot
       # k_matrix = np.array([[K1,0],[0, K2]])
@@ -77,6 +84,6 @@ if __name__ == '__main__':
   rospy.init_node('turtlebot_controller', anonymous=True)
 
   try:
-    controller(sys.argv[1], sys.argv[2])
+    controller(sys.argv[1], sys.argv[2:])
   except rospy.ROSInterruptException:
     pass
