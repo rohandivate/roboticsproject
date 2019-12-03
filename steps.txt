@@ -1,0 +1,21 @@
+setup for lab4
+- set up the realsense camera 
+- - roslaunch realsense2_camera rs_camera.launch (from lab6)
+- set up AR tracker
+- - roslaunch lab4_cam ar_track.launch (from lab4, modified to match topics from realsense)
+- rosrun rviz rviz
+- now in rviz, you should be able to select camera_color_optical as the global fixed frame topic
+- add image, camera, tf
+- set topic to /camera/color/image_raw
+- now you should be able to see AR tags on the screen in reference to the realsense cam
+
+ros multimaster (works with c111-2, black, pink)
+- ssh into each turtlebot: ssh turtlebot@<color>.local
+- on each bot run:
+- - cat /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts (this should return 0 else run sudo sh -c "echo 0>/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts")
+- - sudo service procps restart
+- - roscore
+- - (in separate terminal) rosrun master_discovery_fkie master_discovery _mcast_group:=224.0.0.1
+- - (in separate terminal) rosrun master_sync_fkie master_sync 
+- (separate terminal, just one time) rosservice call /master_discovery/list_masters
+- now you should be able to see a list of all the masters that have been discovered by the fkie pkg
