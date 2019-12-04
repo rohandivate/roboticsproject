@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/CMakeFiles /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/CMakeFiles/progress.marks
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/CMakeFiles 0
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/CMakeFiles /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/turtlebot_control/CMakeFiles/progress.marks
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/clean
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,17 +152,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/preinstall
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/preinstall
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(MAKE) -f CMakeFiles/Makefile2 turtlebot_control/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

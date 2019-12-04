@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab4_cam_generate_messages_py"
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/python2.7/dist-packages/lab4_cam/srv/_ImageSrv.py"
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/python2.7/dist-packages/lab4_cam/srv/__init__.py"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/lib/python2.7/dist-packages/lab4_cam/srv/_ImageSrv.py"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/lib/python2.7/dist-packages/lab4_cam/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/install
+prefix=/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/install
 
 Name: turtlebot_control
 Description: Description of turtlebot_control
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/install/lib 
+Libs: -L/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/install/lib 
 Requires: 

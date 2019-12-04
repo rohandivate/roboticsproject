@@ -14,7 +14,7 @@ import numpy as np
 from geometry_msgs.msg import Twist
 
 #Define the method which contains the main functionality of the node.
-def controller(pursuer_frame, evader_frames):
+def controller(turtlebot_ID, pursuer_frame, evader_frames):
   """
   Controls a turtlebot whose position is denoted by pursuer_frame,
   to go to a position denoted by evader_frame
@@ -25,12 +25,14 @@ def controller(pursuer_frame, evader_frames):
 
   ################################### YOUR CODE HERE ##############
 
-  #Create a publisher and a tf buffer, which is primed with a tf listener
-  """ 
-  pick the right channel (depends on the bot)
-  """
-  # channel = '/black/mobile_base/commands/velocity' # for black
-  channel = '/mobile_base/commands/velocity' # for others
+ 
+
+  """pick the right channel (depends on the bot)"""
+  channel = '/mobile_base/commands/velocity'
+  if turtlebot_ID == 'black':
+  	channel = '/black/mobile_base/commands/velocity' # for black turtlebot
+
+  """Create a publisher and a tf buffer, which is primed with a tf listener"""
   pub = rospy.Publisher(channel, Twist, queue_size=10)
   tfBuffer = tf2_ros.Buffer()
   tfListener = tf2_ros.TransformListener(tfBuffer)
@@ -61,7 +63,7 @@ def controller(pursuer_frame, evader_frames):
 
       control_command = Twist()# Generate this
       control_command.linear.x = trans.transform.translation.x * K1
-      control_command.angular.z = trans.transform.translation.y*K2
+      control_command.angular.z = trans.transform.translation.y * K2
 
 
       #################################### end your code ###############
@@ -84,6 +86,6 @@ if __name__ == '__main__':
   rospy.init_node('turtlebot_controller', anonymous=True)
 
   try:
-    controller(sys.argv[1], sys.argv[2:])
+    controller(sys.argv[1], sys.argv[2], sys.argv[3:])
   except rospy.ROSInterruptException:
     pass

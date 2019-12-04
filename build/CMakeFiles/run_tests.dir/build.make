@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

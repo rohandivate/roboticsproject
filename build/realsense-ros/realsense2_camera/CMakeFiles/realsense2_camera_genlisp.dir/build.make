@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build
 
 # Utility rule file for realsense2_camera_genlisp.
 
@@ -63,10 +63,10 @@ realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/build: 
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/build
 
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera && $(CMAKE_COMMAND) -P CMakeFiles/realsense2_camera_genlisp.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera && $(CMAKE_COMMAND) -P CMakeFiles/realsense2_camera_genlisp.dir/cmake_clean.cmake
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/clean
 
 realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera_genlisp.dir/depend
 

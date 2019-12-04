@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "realsense2_description"
-PROJECT_SPACE_DIR = "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/install"
+PROJECT_SPACE_DIR = "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/install"
 PROJECT_VERSION = "2.2.8"

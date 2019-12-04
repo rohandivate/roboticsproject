@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp" "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o"
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp" "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o"
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp" "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera/src/base_realsense_node.cpp" "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera/src/realsense_node_factory.cpp" "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera/src/t265_realsense_node.cpp" "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,8 +19,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/include"
-  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera/include"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/include"
+  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/opt/ros/kinetic/include/opencv-3.3.1-dev"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build
 
 # Utility rule file for lab4_cam_geneus.
 
@@ -63,10 +63,10 @@ lab4_cam/CMakeFiles/lab4_cam_geneus.dir/build: lab4_cam_geneus
 .PHONY : lab4_cam/CMakeFiles/lab4_cam_geneus.dir/build
 
 lab4_cam/CMakeFiles/lab4_cam_geneus.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam && $(CMAKE_COMMAND) -P CMakeFiles/lab4_cam_geneus.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam && $(CMAKE_COMMAND) -P CMakeFiles/lab4_cam_geneus.dir/cmake_clean.cmake
 .PHONY : lab4_cam/CMakeFiles/lab4_cam_geneus.dir/clean
 
 lab4_cam/CMakeFiles/lab4_cam_geneus.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam/CMakeFiles/lab4_cam_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam/CMakeFiles/lab4_cam_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab4_cam/CMakeFiles/lab4_cam_geneus.dir/depend
 

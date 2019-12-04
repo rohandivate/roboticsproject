@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build
 
 # Utility rule file for _lab4_cam_generate_messages_check_deps_ImageSrv.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalpro
 include lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/progress.make
 
 lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lab4_cam /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/lab4_cam/srv/ImageSrv.srv sensor_msgs/Image:std_msgs/Header
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py lab4_cam /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/lab4_cam/srv/ImageSrv.srv sensor_msgs/Image:std_msgs/Header
 
 _lab4_cam_generate_messages_check_deps_ImageSrv: lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv
 _lab4_cam_generate_messages_check_deps_ImageSrv: lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/build.make
@@ -67,10 +67,10 @@ lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/build: _
 .PHONY : lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/build
 
 lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam && $(CMAKE_COMMAND) -P CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam && $(CMAKE_COMMAND) -P CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/cmake_clean.cmake
 .PHONY : lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/clean
 
 lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab4_cam/CMakeFiles/_lab4_cam_generate_messages_check_deps_ImageSrv.dir/depend
 
