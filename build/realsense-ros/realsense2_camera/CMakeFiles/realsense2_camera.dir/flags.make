@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIE -fPIC -std=c++11 -D_FORTIFY_SOURCE=2 -fstack-protector -Wforma
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"realsense2_camera\" -Drealsense2_camera_EXPORTS
 
-CXX_INCLUDES = -I/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/include -I/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
+CXX_INCLUDES = -I/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/include -I/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/opt/ros/kinetic/include/opencv-3.3.1-dev -I/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab4_cam_generate_messages_lisp"
-  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/share/common-lisp/ros/lab4_cam/srv/ImageSrv.lisp"
+  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/share/common-lisp/ros/lab4_cam/srv/ImageSrv.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

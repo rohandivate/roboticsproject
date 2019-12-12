@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/turtlebot_control
+# Install script for directory: /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/turtlebot_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/turtlebot_control/catkin_generated/installspace/turtlebot_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/catkin_generated/installspace/turtlebot_control.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_control/cmake" TYPE FILE FILES
-    "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/turtlebot_control/catkin_generated/installspace/turtlebot_controlConfig.cmake"
-    "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/turtlebot_control/catkin_generated/installspace/turtlebot_controlConfig-version.cmake"
+    "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/catkin_generated/installspace/turtlebot_controlConfig.cmake"
+    "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/turtlebot_control/catkin_generated/installspace/turtlebot_controlConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_control" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/turtlebot_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtlebot_control" TYPE FILE FILES "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/turtlebot_control/package.xml")
 endif()
 

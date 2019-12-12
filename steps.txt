@@ -14,19 +14,36 @@ setup for lab4
 - - roslaunch lab4_cam ar_track.launch (from lab4, modified to match topics from realsense)
 - rosrun rviz rviz
 - now in rviz, you should be able to select camera_color_optical as the global fixed frame topic
-- add image, camera, tf
-- set topic to /camera/color/image_raw
-- now you should be able to see AR tags on the screen in reference to the realsense cam
+- add image, camerar/main script that calls the controller(..) API
+	while not rospy.is_shutdown():
 
 ros multimaster (works with c111-2, black, pink)
-- ssh into each turtlebot: ssh turtlebot@<color>.local
-- on each bot run:
-- - cat /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts (this should return 0 else run sudo sh -c "echo 0>/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts")
-- - sudo service procps restart
-- - roscore
-- - (in separate terminal) rosrun master_discovery_fkie master_discovery _mcast_group:=224.0.0.1
-- - (in separate terminal) rosrun master_sync_fkie master_sync 
+1 - ssh into each turtlebot: ssh turtlebot@<color>.local
+2 - on each bot run:
+  - - sudo sh -c "echo 0>/proc/sys/net/ipv4/icmp_echo_ignore_broadcasts"
+  - - cat /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts (this should return 0 now)
+3 - - sudo service procps restart
+4 - - roscore
+5 - - (in separate terminal) rosrun master_discovery_fkie master_discovery _mcast_group:=224.0.0.1
+6 - - (in separate terminal) rosrun master_sync_fkie master_sync 
 - (separate terminal, just one time) rosservice call /master_discovery/list_masters
 - now you should be able to see a list of all the masters that have been discovered by the fkie pkg
 - see this for demo: http://wiki.ros.org/multimaster_fkie/Tutorials/Setup%20a%20ROS%20master%20synchronization
 
+
+
+to control multiple turtlebots:
+- export ROS_MASTER_URI=http://localhost:11311
+- set up multimaster on localhost (steps 4-6, make sure to source devel/setup.bash)
+- rosservice call /master_discovery/list_masters
+- ssh turtlebot@<color>.local
+- roslaunch turtlebot_bringup minimal.launch --screen
+- set up multimaster on each bot (steps 1-6)
+- set up realsense (see lab4 steps)
+- on localhost, run the main script
+- - rosrun turtlebot_control turtlebot_control.py pink pursuer ar_marker_2 ar_marker_8
+- in new terminal
+- - export ROS_MASTER_URI=http://<color>.local:11311
+- - rosrun turtlebot_control pubsub.py pink
+- now the turtlebot in question will be able to move towards the specified AR tag
+- the difference between this and lab4 is that each turtlebot now subscribes to a shared topic. the main computes the best transform using lookup_transform, and publishes the best transformation at a given time step for each turtlebot in the network to the shared topic. Each turtlebot runs the pubsub.py script which allows it to pass the information from the shared topic to its specific /<color>/mobile_base/commands/velocity/ topic enabling movement.

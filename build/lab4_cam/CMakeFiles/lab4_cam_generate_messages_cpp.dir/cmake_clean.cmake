@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab4_cam_generate_messages_cpp"
-  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/include/lab4_cam/ImageSrv.h"
+  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/include/lab4_cam/ImageSrv.h"
 )
 
 # Per-language clean rules from dependency scanning.

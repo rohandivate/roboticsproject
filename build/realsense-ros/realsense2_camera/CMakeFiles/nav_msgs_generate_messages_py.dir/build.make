@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build
 
 # Utility rule file for nav_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/bui
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/build
 
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/clean:
-	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera && $(CMAKE_COMMAND) -P CMakeFiles/nav_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/clean
 
 realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/depend:
-	cd /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/src/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/build/realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/src/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/build/realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : realsense-ros/realsense2_camera/CMakeFiles/nav_msgs_generate_messages_py.dir/depend
 

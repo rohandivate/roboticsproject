@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab4_cam_generate_messages_eus"
-  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/share/roseus/ros/lab4_cam/srv/ImageSrv.l"
-  "/home/cc/ee106a/fa19/class/ee106a-aej/ros_workspaces/roboticsproject/devel/share/roseus/ros/lab4_cam/manifest.l"
+  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/share/roseus/ros/lab4_cam/srv/ImageSrv.l"
+  "/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/share/roseus/ros/lab4_cam/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.
