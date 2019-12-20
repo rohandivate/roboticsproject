@@ -266,7 +266,7 @@ SETUPTOOLS_DEB_LAYOUT:BOOL=ON
 SET_USER_BREAK_AT_STARTUP:BOOL=OFF
 
 //Name of the computer/site where compile is being run
-SITE:STRING=c111-2
+SITE:STRING=c111-11
 
 //Path to a file.
 TinyXML_INCLUDE_DIR:PATH=/usr/include

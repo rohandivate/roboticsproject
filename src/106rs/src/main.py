@@ -186,7 +186,7 @@ def main():
     POINTS_TOPIC = '/camera/depth/color/points'
     POINTS_PUB_TOPIC = 'segmented_points'
 
-    rospy.init_node('realsense_listener')
+    rospy.init_node('stick_tracker')
     process = PointcloudProcess(POINTS_TOPIC, RGB_IMAGE_TOPIC,
                                 CAM_INFO_TOPIC, POINTS_PUB_TOPIC)
     

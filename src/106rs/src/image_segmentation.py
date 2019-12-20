@@ -72,7 +72,7 @@ def color_space_segmentation(img, light_bound = (38, 90, 90), dark_bound = (60, 
 # - Official OpenCV tutorials
 # - https://www.pyimagesearch.com/2016/02/08/opencv-shape-detection/
 # - https://realpython.com/python-opencv-color-spaces/
-def fit_boxes(img_arr, area_thresh=5000):
+def fit_boxes(img_arr, area_thresh=2000):
     img = cv2.cvtColor(img_arr, cv2.COLOR_RGB2BGR)
     cs_segmented = color_space_segmentation(img)
     
@@ -146,7 +146,7 @@ def segment_image(img):
     if not fitted:
         return None, False
 
-    kernel = np.ones((10,10), np.uint8) 
+    kernel = np.ones((9,9), np.uint8) 
     binary = cv2.erode(binary, kernel, iterations=4)
 
     # if np.sum(binary) < 400:

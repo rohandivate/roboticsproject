@@ -14,9 +14,11 @@ from geometry_msgs.msg import Twist
 
 def get_channel(turtlebot_ID):
 	if turtlebot_ID == 'pink':
-		channel = '/pink/mobile_base/commands/velocity'
+		channel = '/pink/mobile_base/commands/velocity' # for pink bot
 	if turtlebot_ID == 'black': 
 		channel = '/black/mobile_base/commands/velocity' # for black turtlebot
+	if turtlebot_ID == 'red':
+		channel = '/red/mobile_base/commands/velocity' # for red bot
 	return channel
 
 #Define the method which contains the main functionality of the node.

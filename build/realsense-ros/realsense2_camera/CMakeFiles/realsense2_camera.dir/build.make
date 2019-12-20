@@ -142,7 +142,7 @@ realsense2_camera_EXTERNAL_OBJECTS =
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/src/t265_realsense_node.cpp.o
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: realsense-ros/realsense2_camera/CMakeFiles/realsense2_camera.dir/build.make
-/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/librealsense2.so.2.31.0
+/home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/librealsense2.so.2.30.0
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: /opt/ros/kinetic/lib/libnodeletlib.so
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: /usr/lib/x86_64-linux-gnu/libuuid.so
 /home/cc/ee106a/fa19/class/ee106a-aey/ros_workspaces/finalproject/devel/lib/librealsense2_camera.so: /opt/ros/kinetic/lib/libbondcpp.so

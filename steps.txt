@@ -46,4 +46,7 @@ to control multiple turtlebots:
 - - export ROS_MASTER_URI=http://<color>.local:11311
 - - rosrun turtlebot_control pubsub.py pink
 - now the turtlebot in question will be able to move towards the specified AR tag
-- the difference between this and lab4 is that each turtlebot now subscribes to a shared topic. the main computes the best transform using lookup_transform, and publishes the best transformation at a given time step for each turtlebot in the network to the shared topic. Each turtlebot runs the pubsub.py script which allows it to pass the information from the shared topic to its specific /<color>/mobile_base/commands/velocity/ topic enabling movement.
+- the difference between this and lab4 is that each turtlebot now subscribes to a shared topic. 
+the main computes the best transform using lookup_transform, and publishes the best transformation at a given time step for each
+ turtlebot in the network to the shared topic. Each turtlebot runs the pubsub.py script which allows it
+ to pass the information from the shared topic to its specific /<color>/mobile_base/commands/velocity/ topic enabling movement.
